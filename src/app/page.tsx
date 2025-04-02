@@ -29,7 +29,7 @@ export default function Home() {
             </h1>
             <p className="text-xl text-white/80 mb-8">
               A premium web template designed to help businesses create a strong online presence effortlessly. 
-              Whether you're launching a new venture or scaling an established brand, ElevateBiz provides a 
+              Whether you&apos;re launching a new venture or scaling an established brand, ElevateBiz provides a 
               seamless, intuitive platform to showcase your products and services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -72,7 +72,7 @@ export default function Home() {
             </h2>
             <p className="text-white/80 max-w-2xl mx-auto">
               Modern design elements, customizable features, and user-friendly navigation - 
-              everything you need to thrive in today's digital world.
+              everything you need to thrive in today&apos;s digital world.
             </p>
           </motion.div>
 

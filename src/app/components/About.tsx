@@ -38,7 +38,7 @@ export default function About() {
               business owner has the time or technical expertise to build a website from scratch.
             </p>
             <p className="text-white/80">
-              That's why we created ElevateBiz - a premium web template that combines stunning 
+              That&apos;s why we created ElevateBiz - a premium web template that combines stunning 
               design with user-friendly customization. Our platform empowers businesses of all 
               sizes to create a strong online presence without the complexity of traditional 
               web development.
@@ -46,7 +46,7 @@ export default function About() {
             <p className="text-white/80">
               With modern design elements, customizable features, and intuitive navigation, 
               ElevateBiz provides everything you need to showcase your products and services 
-              effectively in today's digital world.
+              effectively in today&apos;s digital world.
             </p>
           </motion.div>
 
