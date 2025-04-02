@@ -1,99 +1,83 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+'use client'
+
+import { useState } from 'react'
+import { motion } from 'framer-motion'
 
 export default function CompanyLogos() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 2;
-
+  const [currentIndex, setCurrentIndex] = useState(0)
   const logos = [
-    { name: 'Layers' },
-    { name: 'Sisyphus' },
-    { name: 'Circooles' },
-    { name: 'Catalog' },
-    { name: 'Quotient' }
-  ];
+    { name: "Company 1" },
+    { name: "Company 2" },
+    { name: "Company 3" },
+    { name: "Company 4" },
+    { name: "Company 5" },
+    { name: "Company 6" }
+  ]
 
-  const handleSwipe = (direction: number) => {
-    setCurrentSlide(prev => {
-      const next = prev + direction;
-      if (next < 0) return totalSlides - 1;
-      if (next >= totalSlides) return 0;
-      return next;
-    });
-  };
+  const handleSwipe = (direction: 'left' | 'right') => {
+    if (direction === 'left') {
+      setCurrentIndex(prev => (prev === 0 ? logos.length - 1 : prev - 1))
+    } else {
+      setCurrentIndex(prev => (prev === logos.length - 1 ? 0 : prev + 1))
+    }
+  }
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4">
-      {/* Desktop View */}
-      <div className="hidden md:flex md:flex-wrap justify-between items-center gap-8 w-full">
+    <div className="container mx-auto px-4">
+      <div className="hidden md:flex justify-center items-center gap-8 flex-wrap">
         {logos.map((logo, index) => (
-          <div key={logo.name} className="flex items-center gap-3 shrink-0">
-            <div className="relative w-[40px] h-[40px] bg-[#FFD700] rounded-full opacity-0 animate-fade-in" style={{ animationDelay: `${index * 200}ms` }} />
-            <span className="text-sm text-[#FFD700] font-medium opacity-0 animate-fade-in whitespace-nowrap" style={{ animationDelay: `${(index * 200) + 100}ms` }}>{logo.name}</span>
-          </div>
+          <motion.div
+            key={index}
+            className="w-24 h-24 rounded-full bg-[#FFD700] flex items-center justify-center"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            <span className="text-black text-sm font-medium">{logo.name}</span>
+          </motion.div>
         ))}
       </div>
 
-      {/* Mobile View with Carousel */}
-      <div className="md:hidden relative w-full overflow-hidden">
-        <div 
-          className="flex transition-transform duration-300 ease-in-out w-full"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-          onTouchStart={(e) => {
-            const touch = e.touches[0];
-            const startX = touch.clientX;
-            
-            const handleTouchMove = (e: TouchEvent) => {
-              const touch = e.touches[0];
-              const diff = startX - touch.clientX;
-              if (Math.abs(diff) > 50) {
-                handleSwipe(diff > 0 ? 1 : -1);
-                document.removeEventListener('touchmove', handleTouchMove);
-              }
-            };
-            
-            document.addEventListener('touchmove', handleTouchMove, { once: true });
-          }}
-        >
-          {/* First Slide */}
-          <div className="flex min-w-full px-4">
-            <div className="flex justify-center gap-4 w-full">
-              {logos.slice(0, 3).map((logo, index) => (
-                <div key={logo.name} className="flex items-center gap-2 shrink-0">
-                  <div className="relative w-[28px] h-[28px] bg-[#FFD700] rounded-full opacity-0 animate-fade-in" style={{ animationDelay: `${index * 200}ms` }} />
-                  <span className="text-xs text-[#FFD700] font-medium opacity-0 animate-fade-in whitespace-nowrap" style={{ animationDelay: `${(index * 200) + 100}ms` }}>{logo.name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Second Slide */}
-          <div className="flex min-w-full px-4">
-            <div className="flex justify-center gap-4 w-full">
-              {logos.slice(3).map((logo, index) => (
-                <div key={logo.name} className="flex items-center gap-2 shrink-0">
-                  <div className="relative w-[28px] h-[28px] bg-[#FFD700] rounded-full opacity-0 animate-fade-in" style={{ animationDelay: `${index * 200}ms` }} />
-                  <span className="text-xs text-[#FFD700] font-medium opacity-0 animate-fade-in whitespace-nowrap" style={{ animationDelay: `${(index * 200) + 100}ms` }}>{logo.name}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+      {/* Mobile View */}
+      <div className="md:hidden relative">
+        <div className="flex justify-center items-center">
+          <motion.div
+            key={currentIndex}
+            className="w-24 h-24 rounded-full bg-[#FFD700] flex items-center justify-center"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <span className="text-black text-sm font-medium">{logos[currentIndex].name}</span>
+          </motion.div>
         </div>
 
-        {/* Carousel Dots */}
+        <div className="flex justify-center gap-4 mt-6">
+          <button
+            onClick={() => handleSwipe('left')}
+            className="w-8 h-8 rounded-full bg-[#FFD700] text-black flex items-center justify-center"
+          >
+            ←
+          </button>
+          <button
+            onClick={() => handleSwipe('right')}
+            className="w-8 h-8 rounded-full bg-[#FFD700] text-black flex items-center justify-center"
+          >
+            →
+          </button>
+        </div>
+
         <div className="flex justify-center gap-2 mt-4">
-          {[...Array(totalSlides)].map((_, index) => (
-            <button
+          {logos.map((_, index) => (
+            <div
               key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                currentSlide === index ? 'bg-[#FFD700] w-4' : 'bg-[#FFD700]/30'
+              className={`w-2 h-2 rounded-full ${
+                index === currentIndex ? 'bg-[#FFD700]' : 'bg-[#FFD700]/30'
               }`}
-              aria-label={`Go to slide ${index + 1}`}
             />
           ))}
         </div>
       </div>
     </div>
-  );
+  )
 } 

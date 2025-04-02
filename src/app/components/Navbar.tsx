@@ -97,24 +97,17 @@ export default function Navbar({}: NavbarProps) {
             </div>
           </div>
 
-          {/* Buttons - Desktop */}
-          <div className="hidden md:flex w-[240px] flex-shrink-0 items-center gap-4 justify-end">
-            <motion.button 
-              className="text-[#FFD700] transition text-sm font-medium border border-[#FFD700]/30 px-4 py-1.5 rounded-md hover:border-[#FFD700]"
-              whileHover={hoverAnimation}
-              whileTap={{ scale: 0.95 }}
-              transition={buttonSpringTransition}
-            >
-              Login
-            </motion.button>
-            <motion.button 
+          {/* Button - Desktop */}
+          <div className="hidden md:flex w-[240px] flex-shrink-0 items-center justify-end">
+            <motion.a 
+              href="#contact"
               className="whitespace-nowrap bg-[#FFD700] text-black px-6 py-1.5 rounded-md text-sm font-medium hover:bg-[#B8860B]"
               whileHover={hoverAnimation}
               whileTap={{ scale: 0.95 }}
               transition={buttonSpringTransition}
             >
               Get Started Now
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu */}
@@ -142,22 +135,15 @@ export default function Navbar({}: NavbarProps) {
                   </motion.a>
                 ))}
                 <div className="flex flex-col items-center gap-3 pt-4 border-t border-[#FFD700]/10">
-                  <motion.button 
-                    className="w-[60%] text-[#FFD700] transition text-sm font-medium border border-[#FFD700]/30 px-4 py-2.5 rounded-md hover:border-[#FFD700]"
-                    whileHover={mobileHoverAnimation}
-                    whileTap={{ scale: 0.98 }}
-                    transition={buttonSpringTransition}
-                  >
-                    Login
-                  </motion.button>
-                  <motion.button 
-                    className="w-[60%] whitespace-nowrap bg-[#FFD700] text-black px-4 py-2.5 rounded-md text-sm font-medium hover:bg-[#B8860B]"
+                  <motion.a 
+                    href="#contact"
+                    className="w-[60%] whitespace-nowrap bg-[#FFD700] text-black px-4 py-2.5 rounded-md text-sm font-medium hover:bg-[#B8860B] text-center"
                     whileHover={mobileHoverAnimation}
                     whileTap={{ scale: 0.98 }}
                     transition={buttonSpringTransition}
                   >
                     Get Started Now
-                  </motion.button>
+                  </motion.a>
                 </div>
               </div>
             </div>

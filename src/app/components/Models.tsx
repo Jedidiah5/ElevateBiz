@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Models() {
   return (
-    <section id="models" className="py-20 bg-black">
+    <section id="models" className="py-20 bg-black overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"
@@ -26,17 +26,17 @@ export default function Models() {
             {
               title: "Business",
               description: "Perfect for corporate websites and professional services",
-              icon: "🏢"
+              icon: "ri-hand-coin-line"
             },
             {
               title: "E-commerce",
               description: "Designed for online stores and product showcases",
-              icon: "🛍️"
+              icon: "ri-shopping-cart-2-line"
             },
             {
               title: "Portfolio",
               description: "Ideal for creatives and freelancers",
-              icon: "🎨"
+              icon: "ri-user-3-line"
             }
           ].map((model, index) => (
             <motion.div
@@ -48,7 +48,9 @@ export default function Models() {
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
             >
-              <div className="text-4xl mb-4">{model.icon}</div>
+              <div className="text-4xl mb-4 text-[#FFD700]">
+                <i className={model.icon}></i>
+              </div>
               <h3 className="text-xl font-semibold text-[#FFD700] mb-2">
                 {model.title}
               </h3>
