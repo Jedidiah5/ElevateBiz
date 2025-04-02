@@ -1,0 +1,1886 @@
+
+
+Navabar
+/* Frame 313697 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 463px;
+height: 19px;
+left: calc(50% - 463px/2 + 0.5px);
+top: 54px;
+
+
+
+/* Models */
+
+width: 53px;
+height: 19px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pricing */
+
+width: 50px;
+height: 19px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 68px;
+height: 19px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Contact Us */
+
+width: 82px;
+height: 19px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Custom Models */
+
+width: 114px;
+height: 19px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+
+Navbar logo
+/* Content */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 70px;
+top: 40px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #D0D5DD 100%), #FFFFFF;
+border: 1.66154px solid #D0D5DD;
+border-radius: 7.38462px;
+
+
+/* Grid */
+
+position: absolute;
+height: 48px;
+left: 0%;
+right: 0%;
+top: calc(50% - 48px/2);
+
+
+
+/* Circle */
+
+position: absolute;
+left: 6.13%;
+right: 6.13%;
+top: 6.13%;
+bottom: 6.13%;
+
+background: #D0D5DD;
+
+
+/* Circle */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+background: #D0D5DD;
+
+
+/* Circle */
+
+position: absolute;
+left: 41.38%;
+right: 41.38%;
+top: 41.38%;
+bottom: 41.38%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 49.88%;
+right: 49.88%;
+top: 0%;
+bottom: 0%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 100%;
+right: -0.24%;
+top: 49.88%;
+bottom: -49.88%;
+
+background: #D0D5DD;
+transform: rotate(90deg);
+
+
+/* Line */
+
+position: absolute;
+left: 83.13%;
+right: 16.63%;
+top: 0%;
+bottom: 0%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 33.25%;
+right: 66.5%;
+top: 0%;
+bottom: 0%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 66.5%;
+right: 33.25%;
+top: 0%;
+bottom: 0%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 16.63%;
+right: 83.13%;
+top: 0%;
+bottom: 0%;
+
+background: #D0D5DD;
+
+
+/* Line */
+
+position: absolute;
+left: 100%;
+right: -0.24%;
+top: 83.13%;
+bottom: -83.13%;
+
+background: #D0D5DD;
+transform: rotate(90deg);
+
+
+/* Line */
+
+position: absolute;
+left: 100%;
+right: -0.24%;
+top: 33.25%;
+bottom: -33.25%;
+
+background: #D0D5DD;
+transform: rotate(90deg);
+
+
+/* Line */
+
+position: absolute;
+left: 100%;
+right: -0.24%;
+top: 66.5%;
+bottom: -66.5%;
+
+background: #D0D5DD;
+transform: rotate(90deg);
+
+
+/* Line */
+
+position: absolute;
+left: 100%;
+right: -0.24%;
+top: 16.63%;
+bottom: -16.63%;
+
+background: #D0D5DD;
+transform: rotate(90deg);
+
+
+/* Dot */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+background: #1774FD;
+box-shadow: 0px 5.53846px 16.6154px rgba(16, 24, 40, 0.1), 0px 5.53846px 11.0769px rgba(16, 24, 40, 0.06);
+
+
+/* Blur */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 50%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(13.8462px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 0px 0px 44.3077px 44.3077px;
+
+
+Navbar button
+/* Frame 1984078109 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 228px;
+height: 37px;
+left: 1142px;
+top: 45px;
+
+
+
+/* Frame 1984078100 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 4px;
+
+width: 88px;
+height: 37px;
+
+border: 1px solid #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 35px;
+height: 17px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 4px;
+
+width: 128px;
+height: 37px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 108px;
+height: 17px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #03061D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+hero
+/* Frame 1984078134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 860px;
+height: 384px;
+left: calc(50% - 860px/2);
+top: calc(50% - 384px/2 - 70px);
+
+
+
+/* Frame 1984078135 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 636px;
+height: 210px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Leverage on Automation */
+
+width: 184px;
+height: 38px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 38px;
+/* identical to box height, or 238% */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #7191FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* AI Models for Business Solutions */
+
+width: 636px;
+height: 164px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 76px;
+line-height: 82px;
+/* or 108% */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Leverage the power of AI to automate, analyze, and optimize your workflows. Our specialized models are designed to fit different business needs */
+
+width: 860px;
+height: 76px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 26px;
+gap: 3.9px;
+
+width: 192px;
+height: 50px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 140px;
+height: 22px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #05152C;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+
+
+1st logo
+/* Isometric square */
+
+position: absolute;
+left: 33.56%;
+right: -4.71%;
+top: 33.55%;
+bottom: -4.7%;
+
+/* Primary/500 */
+background: #9E77ED;
+transform: matrix(0.97, -0.26, -0.26, 0.97, 0, 0);
+
+
+/* Isometric square */
+
+position: absolute;
+left: 16.13%;
+right: 12.72%;
+top: 16.12%;
+bottom: 12.73%;
+
+/* Primary/700 */
+background: #6941C6;
+transform: matrix(0.97, -0.26, -0.26, 0.97, 0, 0);
+
+
+
+2nd logo
+/* Shape */
+
+position: absolute;
+left: 0%;
+right: 66.9%;
+top: 40%;
+bottom: 40%;
+
+/* Success/600 */
+background: #039855;
+
+
+/* Shape */
+
+position: absolute;
+left: 99.31%;
+right: -32.41%;
+top: 60%;
+bottom: 20%;
+
+/* Success/700 */
+background: #027A48;
+transform: rotate(180deg);
+
+
+/* Shape */
+
+position: absolute;
+left: 33.1%;
+right: 33.79%;
+top: 20%;
+bottom: 40%;
+
+/* Success/200 */
+background: #A6F4C5;
+
+
+/* Shape */
+
+position: absolute;
+left: 66.21%;
+right: 0.69%;
+top: 80%;
+bottom: -20%;
+
+/* Success/300 */
+background: #6CE9A6;
+transform: rotate(180deg);
+
+
+/* Shape */
+
+position: absolute;
+left: 0%;
+right: 33.79%;
+top: 0%;
+bottom: 60%;
+
+/* Success/400 */
+background: #32D583;
+
+
+/* Shape */
+
+position: absolute;
+left: 99.31%;
+right: -65.52%;
+top: 100%;
+bottom: -40%;
+
+/* Success/500 */
+background: #12B76A;
+transform: rotate(180deg);
+
+3rd logo
+/* Intersect */
+
+position: absolute;
+left: 28.57%;
+right: 28.57%;
+top: 28.57%;
+bottom: 28.57%;
+
+/* Blue/700 */
+background: #175CD3;
+
+
+/* Circle */
+
+position: absolute;
+left: 0%;
+right: 29.17%;
+top: 0%;
+bottom: 29.17%;
+
+/* Blue/600 */
+background: #1570EF;
+
+
+/* Circle */
+
+position: absolute;
+left: 29.17%;
+right: 0%;
+top: 29.17%;
+bottom: 0%;
+
+/* Blue/500 */
+background: #2E90FA;
+
+
+4th logo
+/* Logomark */
+
+position: absolute;
+left: 0%;
+right: 72.5%;
+top: 4.17%;
+bottom: 4.17%;
+
+
+card carousel nav
+/* Frame 427322025 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 4px;
+
+position: absolute;
+width: 701px;
+height: 44px;
+left: calc(50% - 701px/2 + 0.5px);
+top: 1111px;
+
+border: 1px solid #E4E4E7;
+border-radius: 12px;
+
+
+/* Frame 427321908 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 14px;
+gap: 8px;
+
+width: 158px;
+height: 36px;
+
+background: #03217F;
+/* shadow 1 */
+box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame */
+
+display: none;
+width: 22.53px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 20.97%;
+right: 1%;
+top: 12.28%;
+bottom: 6.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 7.54px;
+height: 5.87px;
+left: calc(50% - 7.54px/2 + 7.27px);
+top: calc(50% - 5.87px/2 + 0.68px);
+
+background: #FFD900;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.26px;
+height: 9.41px;
+left: calc(50% - 12.26px/2 + 0.3px);
+top: calc(50% - 9.41px/2 + 5.4px);
+
+background: #F43249;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.27px;
+height: 9.37px;
+left: calc(50% - 12.27px/2 + 0.29px);
+top: calc(50% - 9.37px/2 - 3.99px);
+
+background: #00EE76;
+
+
+/* Vector */
+
+position: absolute;
+width: 10.04px;
+height: 18.77px;
+left: calc(50% - 10.04px/2 - 1.52px);
+top: calc(50% - 18.77px/2 + 0.73px);
+
+background: #00D3FF;
+
+
+/* Market Prediction */
+
+width: 130px;
+height: 24px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 427321909 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 14px;
+gap: 8px;
+
+width: 85px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame */
+
+display: none;
+width: 22.53px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 20.97%;
+right: 1%;
+top: 12.28%;
+bottom: 6.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 7.54px;
+height: 5.87px;
+left: calc(50% - 7.54px/2 + 7.27px);
+top: calc(50% - 5.87px/2 + 0.68px);
+
+background: #FFD900;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.26px;
+height: 9.41px;
+left: calc(50% - 12.26px/2 + 0.3px);
+top: calc(50% - 9.41px/2 + 5.4px);
+
+background: #F43249;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.27px;
+height: 9.37px;
+left: calc(50% - 12.27px/2 + 0.29px);
+top: calc(50% - 9.37px/2 - 3.99px);
+
+background: #00EE76;
+
+
+/* Vector */
+
+position: absolute;
+width: 10.04px;
+height: 18.77px;
+left: calc(50% - 10.04px/2 - 1.52px);
+top: calc(50% - 18.77px/2 + 0.73px);
+
+background: #00D3FF;
+
+
+/* Finance */
+
+width: 57px;
+height: 24px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #A7A7A7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 427321910 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 14px;
+gap: 8px;
+
+width: 96px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame */
+
+display: none;
+width: 22.53px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 20.97%;
+right: 1%;
+top: 12.28%;
+bottom: 6.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 7.54px;
+height: 5.87px;
+left: calc(50% - 7.54px/2 + 7.27px);
+top: calc(50% - 5.87px/2 + 0.68px);
+
+background: #FFD900;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.26px;
+height: 9.41px;
+left: calc(50% - 12.26px/2 + 0.3px);
+top: calc(50% - 9.41px/2 + 5.4px);
+
+background: #F43249;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.27px;
+height: 9.37px;
+left: calc(50% - 12.27px/2 + 0.29px);
+top: calc(50% - 9.37px/2 - 3.99px);
+
+background: #00EE76;
+
+
+/* Vector */
+
+position: absolute;
+width: 10.04px;
+height: 18.77px;
+left: calc(50% - 10.04px/2 - 1.52px);
+top: calc(50% - 18.77px/2 + 0.73px);
+
+background: #00D3FF;
+
+
+/* Analytics */
+
+width: 68px;
+height: 24px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #AAAAAA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 427321911 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 14px;
+gap: 8px;
+
+width: 174px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame */
+
+display: none;
+width: 22.53px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 20.97%;
+right: 1%;
+top: 12.28%;
+bottom: 6.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 7.54px;
+height: 5.87px;
+left: calc(50% - 7.54px/2 + 7.27px);
+top: calc(50% - 5.87px/2 + 0.68px);
+
+background: #FFD900;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.26px;
+height: 9.41px;
+left: calc(50% - 12.26px/2 + 0.3px);
+top: calc(50% - 9.41px/2 + 5.4px);
+
+background: #F43249;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.27px;
+height: 9.37px;
+left: calc(50% - 12.27px/2 + 0.29px);
+top: calc(50% - 9.37px/2 - 3.99px);
+
+background: #00EE76;
+
+
+/* Vector */
+
+position: absolute;
+width: 10.04px;
+height: 18.77px;
+left: calc(50% - 10.04px/2 - 1.52px);
+top: calc(50% - 18.77px/2 + 0.73px);
+
+background: #00D3FF;
+
+
+/* Content Generation */
+
+width: 146px;
+height: 24px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #AAAAAA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 427321912 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 14px;
+gap: 8px;
+
+width: 164px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame */
+
+display: none;
+width: 22.53px;
+height: 23px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 20.97%;
+right: 1%;
+top: 12.28%;
+bottom: 6.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 7.54px;
+height: 5.87px;
+left: calc(50% - 7.54px/2 + 7.27px);
+top: calc(50% - 5.87px/2 + 0.68px);
+
+background: #FFD900;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.26px;
+height: 9.41px;
+left: calc(50% - 12.26px/2 + 0.3px);
+top: calc(50% - 9.41px/2 + 5.4px);
+
+background: #F43249;
+
+
+/* Vector */
+
+position: absolute;
+width: 12.27px;
+height: 9.37px;
+left: calc(50% - 12.27px/2 + 0.29px);
+top: calc(50% - 9.37px/2 - 3.99px);
+
+background: #00EE76;
+
+
+/* Vector */
+
+position: absolute;
+width: 10.04px;
+height: 18.77px;
+left: calc(50% - 10.04px/2 - 1.52px);
+top: calc(50% - 18.77px/2 + 0.73px);
+
+background: #00D3FF;
+
+
+/* Customer Support */
+
+width: 136px;
+height: 24px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #AAAAAA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+Market preparation card
+/* Frame 1984078134 */
+
+position: absolute;
+width: 1042.17px;
+height: 523.52px;
+left: calc(50% - 1042.17px/2 + 0.08px);
+top: 1188px;
+
+background: #F6FAF3;
+border-radius: 11.6988px;
+
+
+/* Frame 1984078106 */
+
+position: absolute;
+width: 520.6px;
+height: 513.77px;
+left: 550.4px;
+top: 36.5px;
+
+background: url(dynamic-data-visualization-3d.jpg);
+border-radius: 10.6373px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 1470.61px;
+height: 398.01px;
+left: -151.58px;
+bottom: -398.36px;
+
+background: linear-gradient(180deg, #0A0A0A 6.88%, rgba(0, 0, 0, 0) 89%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Frame 1984078136 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 345.11px;
+height: 295.5px;
+left: 55.57px;
+top: calc(50% - 295.5px/2 - 0.01px);
+
+
+
+/* Market Prediction */
+
+width: 345.11px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19.498px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Use AI insights for smarter business decisions and stay competitive. */
+
+width: 345.11px;
+height: 204px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 42.8956px;
+line-height: 51px;
+letter-spacing: -0.02em;
+
+color: #22263F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.74901px;
+gap: 3.9px;
+
+width: 113.09px;
+height: 35.5px;
+
+background: #03217F;
+border: 0.974901px solid #22263F;
+border-radius: 3.8996px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 70px;
+height: 16px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 13.6486px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+Finance Card
+/* Finance */
+
+position: relative;
+width: 1042.17px;
+height: 523.52px;
+
+background: #F6FAF3;
+border-radius: 11.6988px;
+
+
+/* Frame 1984078106 */
+
+position: absolute;
+width: 520.6px;
+height: 513.77px;
+left: 550.4px;
+top: 36.5px;
+
+background: url(closeup-economist-using-calculator-while-going-through-bills-taxes-office.jpg);
+border-radius: 10.6373px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 1470.61px;
+height: 398.01px;
+left: -151.58px;
+bottom: -398.36px;
+
+background: linear-gradient(180deg, #0A0A0A 6.88%, rgba(0, 0, 0, 0) 89%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Frame 1984078137 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 346.11px;
+height: 295.5px;
+left: 54.57px;
+top: calc(50% - 295.5px/2 - 0.01px);
+
+
+
+/* Finance */
+
+width: 346.11px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19.498px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Our AI models analyze financial data for confident investments. */
+
+width: 346.11px;
+height: 204px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 42.8956px;
+line-height: 51px;
+letter-spacing: -0.02em;
+
+color: #22263F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.74901px;
+gap: 3.9px;
+
+width: 113.09px;
+height: 35.5px;
+
+background: #03217F;
+border: 0.974901px solid #22263F;
+border-radius: 3.8996px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 70px;
+height: 16px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 13.6486px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+Analytics card
+/* Analytics */
+
+position: relative;
+width: 1042.17px;
+height: 523.52px;
+
+background: #F6FAF3;
+border-radius: 11.6988px;
+
+
+/* Frame 1984078106 */
+
+position: absolute;
+width: 520.6px;
+height: 513.77px;
+left: 550.4px;
+top: 36.5px;
+
+background: url(person-working-html-computer.jpg);
+border-radius: 10.6373px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 1470.61px;
+height: 398.01px;
+left: -151.58px;
+bottom: -398.36px;
+
+background: linear-gradient(180deg, #0A0A0A 6.88%, rgba(0, 0, 0, 0) 89%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Frame 1984078138 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 391.43px;
+height: 295.5px;
+left: 54.57px;
+top: calc(50% - 295.5px/2 - 0.01px);
+
+
+
+/* Data Analytics */
+
+width: 391.43px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19.498px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Transform data into insights with AI analytics that enhance decisions. */
+
+width: 391.43px;
+height: 204px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 42.8956px;
+line-height: 51px;
+letter-spacing: -0.02em;
+
+color: #22263F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.74901px;
+gap: 3.9px;
+
+width: 113.09px;
+height: 35.5px;
+
+background: #03217F;
+border: 0.974901px solid #22263F;
+border-radius: 3.8996px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 70px;
+height: 16px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 13.6486px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+Content card
+/* Content */
+
+position: relative;
+width: 1042.17px;
+height: 523.52px;
+
+background: #F6FAF3;
+border-radius: 11.6988px;
+
+
+/* Frame 1984078106 */
+
+position: absolute;
+width: 520.6px;
+height: 513.77px;
+left: 550.4px;
+top: 36.5px;
+
+background: url(e-book-layout-design-draft-graphic);
+border-radius: 10.6373px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 1470.61px;
+height: 398.01px;
+left: -151.58px;
+bottom: -398.36px;
+
+background: linear-gradient(180deg, #0A0A0A 6.88%, rgba(0, 0, 0, 0) 89%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Frame 1984078139 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 405.43px;
+height: 295.5px;
+left: 54.57px;
+top: calc(50% - 295.5px/2 - 0.01px);
+
+
+
+/* Content Generation */
+
+width: 405.43px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 19.498px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #828282;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Create quality content easily with AI that knows your brand and audience. */
+
+width: 405.43px;
+height: 204px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 600;
+font-size: 42.8956px;
+line-height: 51px;
+letter-spacing: -0.02em;
+
+color: #22263F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1984078099 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.74901px;
+gap: 3.9px;
+
+width: 113.09px;
+height: 35.5px;
+
+background: #03217F;
+border: 0.974901px solid #22263F;
+border-radius: 3.8996px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 70px;
+height: 16px;
+
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 13.6486px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+Customer card
+
+
+
