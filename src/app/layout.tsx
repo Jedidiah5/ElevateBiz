@@ -13,8 +13,8 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: 'Alpharithm Investments',
-  description: 'Leverage the power of AI to automate, analyze, and optimize your workflows.',
+  title: 'ElevateBiz - Elevate Your Business Online',
+  description: 'A premium web template designed to help businesses create a strong online presence effortlessly.',
 }
 
 export default function RootLayout({
